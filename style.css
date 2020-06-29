@@ -4,7 +4,7 @@ body {
   color: rgb(68, 67, 67)
 }
 
-h1 {
+.top {
   text-align: center;
   background-color: rgb(53, 53, 53);
   margin-top: 0 auto;
@@ -14,7 +14,7 @@ h1 {
   margin: auto
 }
 
-form.search input[type=text] {
+.search-input[type=text] {
   padding: 10px;
   font-size: 17px;
   border: 1px solid grey;
@@ -23,7 +23,7 @@ form.search input[type=text] {
   background: white;
 }
 
-form.search button {
+.search-button {
   float: left;
   width: 12%;
   padding: 10px;
@@ -35,12 +35,6 @@ form.search button {
   cursor: pointer;
 }
 
-form.search button:hover {
+.search-button:hover {
   background: #0b7dda;
-}
-
-form.search::after {
-  content: "";
-  clear: both;
-  display: table;
 }
